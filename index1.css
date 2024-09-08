@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url("index.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2em;
+    color: #ffffff;
+    pointer-events:none ;
+}
+
+.navbar a{
+text-decoration: none;
+color:#ffffff;
+padding:6px 15px ;
+margin:0 10px;
+font-weight: 600;
+}
+
+.navbar a:hover,.navbar a#home{
+ background: #ffffff;
+ color:black;
+}
+
+.nav{
+ border-radius: 20px;
+}
+
+.login{
+    position: relative;
+    margin: 100px 10px 80px 10px;
+    width: 90%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.input img{
+    position: absolute;
+    right: 40px;
+    top:99px;
+    transform: translate(-50%);
+    font-size: 20px;
+    }
